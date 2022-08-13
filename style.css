@@ -51,3 +51,7 @@ h1{
 	margin: 10px;
 	border: 10px solid lightgray;
 }
+
+.negrito{
+	font-weight: bold;
+}
