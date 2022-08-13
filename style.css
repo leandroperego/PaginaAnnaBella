@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('imagens/fundo.png');
+}
+
+nav{
+	width: 900px;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: lightgray;
+}
+
+li{
+	display: inline-block;
+	padding: 0px 15px;
+	color: steelblue;
+}
+
+a{
+	text-decoration: none;
+}
+
+article{
+	background-color: white;
+	width: 900px;
+}
+
+p{
+	padding: 10px;
+}
+
+#pfooter{
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+h1{
+	padding: 10px;
+	color: gray;
+}
