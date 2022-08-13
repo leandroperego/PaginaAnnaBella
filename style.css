@@ -4,16 +4,17 @@
 }
 
 body{
-	background-image: url('imagens/fundo.png');
+	background: #d2d2c1 url('imagens/fundo.png');
+	font: 16px Arial, Helvetica, sans-serif;
+	width: 900px;
 }
 
 nav{
-	width: 900px;
 	height: 70px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: lightgray;
+	background-color: #c5c5b2;
 }
 
 li{
@@ -24,11 +25,12 @@ li{
 
 a{
 	text-decoration: none;
+	font-weight: bold;
+	color: #4b566a;
 }
 
 article{
 	background-color: white;
-	width: 900px;
 }
 
 p{
@@ -36,14 +38,15 @@ p{
 }
 
 #pfooter{
-	width: 900px;
 	font-weight: bold;
 	text-align: center;
 	padding: 15px;
 }
 
 h1{
+	font-size: 1.2em;
 	padding: 10px;
+	padding-top: 20px;
 	color: gray;
 }
 
